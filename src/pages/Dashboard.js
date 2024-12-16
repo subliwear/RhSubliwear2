@@ -10,7 +10,7 @@ const Dashboard = () => {
 
   return (
     <div className="dashboard">
-      <h1>Tableau de Bord</h1>
+      <h1>Tableau de Bord: Hello Damz</h1>
       <div className="stats-grid">
         {stats.map((stat, index) => (
           <div key={index} className="stat-card">
